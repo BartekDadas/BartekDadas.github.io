@@ -1,0 +1,47 @@
+{
+  "$schema" : "http://json-schema.org/draft-06/schema#",
+  "$id" : "assets/schemas/bottom_nav_bar_schema.json",
+  "$comment" : "https://api.flutter.dev/flutter/widgets/BottomNavigationBarItem-class.html",
+  "type" : "object",
+  "title" : "BottomNavigationBarItem",
+  "additionalItems": false,
+  "properties": {
+    "activeIcon" : {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+        }
+      ]
+    },
+    "backgroundColor" : {
+      "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+    },
+    "icon" : {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+        }
+      ]
+    },
+    "label" : {
+      "anyOf": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "tooltip" : {
+      "anyOf": [
+        {
+          "type": "string"
+        }
+      ]
+    }
+  }
+}
