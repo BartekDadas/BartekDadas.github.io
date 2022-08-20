@@ -1,6 +1,6 @@
 {
   "$schema" : "http://json-schema.org/draft-06/schema#",
-  "$id" : "assets/schemas/bottom_nav_bar_schema.json",
+  "$id" : "https://bartekdadas.github.io/schemas/bottom_nav_bar_item_schema.json",
   "$comment" : "https://api.flutter.dev/flutter/widgets/BottomNavigationBarItem-class.html",
   "type" : "object",
   "title" : "BottomNavigationBarItem",
