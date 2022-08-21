@@ -1,0 +1,47 @@
+{
+  "$schema" : "http://json-schema.org/draft-06/schema#",
+  "$id" : "https://bartekdadas.github.io/schemas/svg_schema.json",
+  "$comment" : "https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html",
+  "type" : "object",
+  "title" : "Svg",
+  "additionalItems": false,
+  "properties": {
+    "asset" : {
+      "anyOf": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "color" : {
+      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+    },
+    "height" : {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "number"
+        }
+      ]
+    },
+    "url" : {
+      "anyOf": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "width" : {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "number"
+        }
+      ]
+    }
+  }
+}
