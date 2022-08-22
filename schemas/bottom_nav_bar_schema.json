@@ -61,8 +61,10 @@
           "type": "string"
         },
         {
-          "type": "object",
-          "$ref": "https://bartekdadas.github.io/schemas/bottom_nav_bar_item_schema.json"
+          "type": "array",
+          "items" : {
+           "$ref": "https://bartekdadas.github.io/schemas/bottom_nav_bar_item_schema.json"
+          }
         }
       ]
     },
