@@ -57,7 +57,8 @@
     },
     "items" : { 
       "items" : {
-      "$ref": "https://bartekdadas.github.io/schemas/bottom_nav_bar_item_schema.json",
+        "$ref": "https://bartekdadas.github.io/schemas/bottom_nav_bar_item_schema.json"
+      },
       "anyOf": [
         {
           "type": "string"
@@ -66,7 +67,6 @@
           "type": "array"
         }
       ]
-      }
     },
     "landscapeLayout" : {
       "anyOf": [
