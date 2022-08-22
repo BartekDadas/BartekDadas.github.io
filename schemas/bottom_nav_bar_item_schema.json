@@ -7,27 +7,13 @@
   "additionalItems": false,
   "properties": {
     "activeIcon" : {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
-        }
-      ]
+      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
     },
     "backgroundColor" : {
       "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "icon" : {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
-        }
-      ]
+      "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
     },
     "label" : {
       "type": "string"
