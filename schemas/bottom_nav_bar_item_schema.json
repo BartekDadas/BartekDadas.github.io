@@ -30,18 +30,10 @@
       ]
     },
     "label" : {
-      "anyOf": [
-        {
-          "type": "string"
-        }
-      ]
+      "type": "string"
     },
     "tooltip" : {
-      "anyOf": [
-        {
           "type": "string"
-        }
-      ]
     }
   }
 }
