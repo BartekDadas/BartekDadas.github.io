@@ -63,7 +63,7 @@
         {
           "type": "array",
           "items": {
-            "$ref": "https://bartekdadas.github.io/schemas/bottom_nav_bar_item_schema.json" 
+            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json" 
           }
         }
       ]
