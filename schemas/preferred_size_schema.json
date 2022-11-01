@@ -1,6 +1,6 @@
 {
   "$schema" : "http://json-schema.org/draft-06/schema#",
-  "id" : "",
+  "id" : "https://bartekdadas.github.io/schemas/preferred_size_schema.json",
   "$comment" : "https://api.flutter.dev/flutter/widgets/PreferredSize-class.html",
   "title" : "PreferredSize",
   "additionalProperties" : false,
