@@ -7,7 +7,14 @@
   "required" : ["preferredSize"],
   "properties": {
       "preferredSize" : {
-        "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/size.json"
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+           "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/size.json"
+          }
+          ]
       },
       "child" : {
         "anyOf": [
