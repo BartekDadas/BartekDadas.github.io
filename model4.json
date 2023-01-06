@@ -1,0 +1,93 @@
+{
+  "type" : "set_value",
+  "args" : {
+    "colorValue1" : "00FF00"
+  },
+  "child" : {
+  "type" : "scaffold",
+  "args": {
+    "appBar": {
+      "type": "preferred_size",
+      "args": {
+        "preferredSize": "${sizeValue}"
+      },
+      "child": {
+        "type": "gesture_detector",
+        "args": {
+          "onLongPress": "${sayHello()}"
+        },
+        "child": {
+          "type": "app_bar",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "BottomNavigationBarModel"
+              }
+            },
+            "backgroundColor" : "${colorValue1}"
+          }
+        }
+        }
+      },
+    "body" : {
+      "child": {
+        "args": {
+          "text": "Files are being prepared"}, "type": "text"}, "type": "center"
+    },
+    "bottomNavigationBar" : {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap" : "${change(curr)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type" : "hero",
+                  "args" : {
+                    "tag" : "icon1"
+                  },
+                  "child" : {
+                    "type": "icon",
+                    "args": {
+                      "icon": {
+                        "codePoint": 984245,
+                        "fontFamily": "MaterialIcons"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "floatingActionButton" : {
+      "type" : "floating_action_button",
+      "args" : {
+        "onPressed" : "${makeAction(icon1)}"
+      }
+    }
+}}}
