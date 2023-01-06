@@ -1,0 +1,37 @@
+{
+  "bb" : [
+    {
+      "type": "set_value",
+      "args": {
+        "customSize": 50.0
+      },
+      "child": {
+        "type": "center",
+        "child": {
+          "type": "tween_animation",
+          "args": {
+            "builder": "${getCustomTweenBuilder()}",
+            "duration": 1000,
+            "tween": "${getCustomTween(customSize)}"
+          },
+          "child": {
+            "type": "icon",
+            "args": {
+              "color": "#0000FF",
+              "icon": {
+                "codePoint": "0xe5db",
+                "fontFamily": "MaterialIcons"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "center",
+      "child": {
+        "args": {
+          "text": "Files are being prepared"}, "type": "text"}
+    }
+  ]
+}

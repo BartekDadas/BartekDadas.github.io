@@ -1,0 +1,51 @@
+{
+  "appB" : [
+    {
+      "type": "preferred_size",
+      "args": {
+        "preferredSize": "${sizeValue}"
+      },
+      "child": {
+        "type": "gesture_detector",
+        "args": {
+          "onLongPress": "${sayHello()}"
+        },
+        "child": {
+          "type": "app_bar",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "BottomNavigationBarModel"
+              }
+            },
+            "backgroundColor" : "${colorValue1}"
+          }
+        }
+      }
+    },
+    {
+      "type": "preferred_size",
+      "args": {
+        "preferredSize": "${sizeValue}"
+      },
+      "child": {
+        "type": "gesture_detector",
+        "args": {
+          "onLongPress": "${sayHello()}"
+        },
+        "child": {
+          "type": "app_bar",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "BottomNavigationBarModel"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

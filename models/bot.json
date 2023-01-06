@@ -1,0 +1,53 @@
+{
+  "bot" : [
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(curr)}",
+        "currentIndex": "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "hero",
+                  "args": {
+                    "tag": "icon1"
+                  },
+                  "child": {
+                    "type": "icon",
+                    "args": {
+                      "icon": {
+                        "codePoint": 984245,
+                        "fontFamily": "MaterialIcons"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
