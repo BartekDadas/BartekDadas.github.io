@@ -1,0 +1,84 @@
+{
+  "type" : "set_value",
+  "args" : {
+    "colorValue" : "00FF00",
+    "sizeValue" : "${sizeValue}",
+    "itemColor" : null
+  },
+  "child" : {
+    "type" : "scaffold",
+    "args" : {
+    "appBar": {
+      "type" : "preferred_size",
+      "args" : {
+        "preferredSize": "${sizeValue}"
+      },
+      "child" : {
+        "type" : "gesture_detector",
+        "args" : {
+          "onLongPress": "${colorPicker(colorValue)}"
+        },
+        "child" : {
+          "type": "app_bar",
+          "args": {
+            "backgroundColor" : "${colorValue}",
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "BottomNavigationBarModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "body" : {
+      "child": {
+        "args": {
+          "text": "Files are being prepared"}, "type": "text"}, "type": "center"
+    },
+    "bottomNavigationBar" : {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "${itemColor}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57734,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint" : 57506,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+}}}

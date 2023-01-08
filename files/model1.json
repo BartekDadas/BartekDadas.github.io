@@ -1,0 +1,96 @@
+{
+  "type" : "set_value",
+  "args" : {
+    "colorValue" : "FF0000",
+    "sizeValue" : "${sizeValue}",
+    "itemColor" : null
+  },
+  "child" : {
+    "args" : {
+    "appBar" : {
+      "type" : "preferred_size",
+      "args" : {
+        "preferredSize": "${sizeValue}"
+      },
+      "child" : {
+        "type" : "gesture_detector",
+        "args" : {
+          "onLongPress": "${colorPicker(colorValue)}"
+        },
+        "child" : {
+          "type": "app_bar",
+          "args": {
+            "backgroundColor" : "${colorValue}",
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "BottomNavigationBarModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "bottomNavigationBar" : {
+        "type": "bottom_navigation_bar",
+        "args" : {
+          "onTap" : "${change(index)}",
+          "currentIndex" : "${curr}",
+          "selectedItemColor" : "${itemColor}",
+          "items": [
+            {
+              "bottomNavigationBarItem": {
+                "type" : "bottom_navigation_bar_item",
+                "args": {
+                  "label": "Icon3",
+                  "icon": {
+                    "type": "icon",
+                    "args": {
+                      "icon": {
+                        "codePoint" : 57784,
+                        "fontFamily": "MaterialIcons"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+            "bottomNavigationBarItem": {
+              "type" : "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon3.5",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint" : 57832,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+            },
+            {
+              "bottomNavigationBarItem": {
+                "type" : "bottom_navigation_bar_item",
+                "args" : {
+                  "label": "Icon4",
+                  "icon": {
+                    "type": "icon",
+                    "args": {
+                      "icon": {
+                        "codePoint" : 57504,
+                        "fontFamily": "MaterialIcons"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+    }
+  }, "type" : "scaffold"  }
+}
