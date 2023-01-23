@@ -12,11 +12,12 @@
               "args": {
                 "label": "Icon1",
                 "icon": {
-                    "type": "icon",
-                    "args": {
-                      "icon": {
-                        "codePoint": 984245,
-                        "fontFamily": "MaterialIcons"
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
                   }
                 }
               }
@@ -53,12 +54,13 @@
               "type": "bottom_navigation_bar_item",
               "args": {
                 "label": "Icon1",
-                "icon":  {
-                    "type": "icon",
-                    "args": {
-                      "icon": {
-                        "codePoint": 984245,
-                        "fontFamily": "MaterialIcons"
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
                   }
                 }
               }
