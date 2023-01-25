@@ -32,7 +32,7 @@
     {
       "type" : "set_value",
       "args" : {
-        "colorValue1" : "FF0000"
+        "colorValue2" : "FF0000"
       },
       "child" : {
       "type": "preferred_size",
@@ -47,7 +47,7 @@
         "child": {
           "type": "app_bar",
           "args": {
-            "backgroundColor": "${colorValue1}",
+            "backgroundColor": "${colorValue2}",
             "title": {
               "type": "text",
               "args": {
