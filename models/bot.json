@@ -5,6 +5,7 @@
       "args": {
         "onTap": "${change(curr)}",
         "currentIndex": "${curr}",
+        "selectedItemColor" : null,
         "items": [
           {
             "bottomNavigationBarItem": {
@@ -46,6 +47,7 @@
     {
       "type": "bottom_navigation_bar",
       "args": {
+        "selectedItemColor" : null,
         "onTap" : "${change(curr)}",
         "currentIndex" : "${curr}",
         "items": [
