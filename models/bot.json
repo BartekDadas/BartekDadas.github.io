@@ -3,7 +3,7 @@
     {
       "type": "bottom_navigation_bar",
       "args": {
-        "onTap": "${change(curr)}",
+        "onTap": "${change(index)}",
         "currentIndex": "${curr}",
         "selectedItemColor" : null,
         "items": [
@@ -48,7 +48,7 @@
       "type": "bottom_navigation_bar",
       "args": {
         "selectedItemColor" : null,
-        "onTap" : "${change(curr)}",
+        "onTap" : "${change(index)}",
         "currentIndex" : "${curr}",
         "items": [
           {
