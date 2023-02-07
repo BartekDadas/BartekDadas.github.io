@@ -1,28 +1,34 @@
 {
   "bb" : [
     {
-      "type": "set_value",
+     "type": "set_widget",
       "args": {
-        "customSize": 50.0
+        "customFirstText": {
+          "type": "text",
+          "args": {
+            "text": "1",
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "customSecondText": {
+          "type": "text",
+          "args": {
+            "text": "2",
+            "style": {
+              "fontSize": 64
+            }
+          }
+        }
       },
       "child": {
         "type": "center",
         "child": {
-          "type": "tween_animation",
+          "type": "animated_switcher",
           "args": {
-            "builder": "${getCustomTweenBuilder()}",
-            "duration": 1000,
-            "tween": "${getCustomTween(customSize)}"
-          },
-          "child": {
-            "type": "icon",
-            "args": {
-              "color": "#0000FF",
-              "icon": {
-                "codePoint": "0xe5db",
-                "fontFamily": "MaterialIcons"
-              }
-            }
+            "child": "${customFirstText}",
+            "duration": 1000
           }
         }
       }
