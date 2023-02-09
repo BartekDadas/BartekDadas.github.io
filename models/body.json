@@ -38,6 +38,121 @@
       "child": {
         "args": {
           "text": "Files are being prepared"}, "type": "text"}
-    }
+    },
+    {
+      "type": "center",
+      "child": {
+        "args": {
+          "text": "sweet home alibama"}, "type": "text"}
+    },
+    {
+      "type": "center",
+      "child": {
+        "args": {
+          "text": "No name text wid"}, "type": "text"}
+    },
+    {
+      "type": "center",
+      "child": {
+        "args": {
+          "text": "What's good?"}, "type": "text"}
+    },
+    {
+      "type": "center",
+      "child": {
+        "type": "decorated_box",
+        "args": {
+          "decoration": {
+            "border": {
+              "color": "#6d78b6",
+              "width": 1
+            },
+            "shape": "rectangle"
+          },
+          "position": "foreground"
+        },
+        "child": {
+          "type": "text",
+          "args": {
+            "text": "This is a random widget"
+          }
+        }
+      }
+    },
+    {
+      "type": "list_view",
+      "children": [{
+        "type": "fitted_box",
+        "child": {
+          "type": "row",
+          "children": [{
+            "type": "container",
+            "child": {
+              "type": "network_image",
+              "args": {
+                "src": "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              }
+            }
+          }, {
+            "type": "text",
+            "args": {
+              "text": "This is a sample text to understand FittedBox widget"
+            }
+        }]
+        }
+      }]
+    },
+    {
+      "type": "list_view",
+      "children": [
+        {
+          "type": "limited_box",
+          "args": {
+            "maxHeight": 200.0
+          },
+          "child": {
+            "type": "container",
+            "args": {
+              "color": "#000"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "type": "center",
+      "child": {
+        "type": "rich_text",
+        "args": {
+          "text": {
+            "children": [
+              {
+                "text": "Hello "
+              },
+              {
+                "style": {
+                  "fontSize": 20.0,
+                  "fontWeight": "bold"
+                },
+                "text": "RICH TEXT"
+              },
+              {
+                "text": " World!"
+              }
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": 12.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "center",
+      "child": {
+        "args": {
+          "text": "10th wid"}, "type": "text"}
+    },
   ]
 }
