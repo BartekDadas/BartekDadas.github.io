@@ -87,6 +87,358 @@
           }
         ]
       }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
     }
   ]
 }
