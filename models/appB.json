@@ -57,6 +57,238 @@
           }
         }
       }
-    }}
+    }},
+    {
+      "type" : "set_value",
+      "args" : {
+         "colorValue3" : "#4d4dff"
+      },
+      "child" : {
+      "type": "preferred_size",
+      "args": {
+        "preferredSize": "${sizeValue}"
+      },
+      "child": {
+        "type": "gesture_detector",
+        "args": {
+          "onLongPress": "${colorPicker()}"
+        },
+        "child": {
+          "type": "app_bar",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "BottomNavigationBarModel"
+              }
+            },
+            "backgroundColor" : "${colorValue3}"
+          }
+        }
+      }
+    }},
+    {
+      "type" : "set_value",
+      "args" : {
+         "colorValue4" : "#1affd1"
+      },
+      "child" : {
+      "type": "preferred_size",
+      "args": {
+        "preferredSize": "${sizeValue}"
+      },
+      "child": {
+        "type": "gesture_detector",
+        "args": {
+          "onLongPress": "${colorPicker()}"
+        },
+        "child": {
+          "type": "app_bar",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "BottomNavigationBarModel"
+              }
+            },
+            "backgroundColor" : "${colorValue4}"
+          }
+        }
+      }
+    }},
+    {
+      "type" : "set_value",
+      "args" : {
+         "colorValue5" : "#cccc00"
+      },
+      "child" : {
+      "type": "preferred_size",
+      "args": {
+        "preferredSize": "${sizeValue}"
+      },
+      "child": {
+        "type": "gesture_detector",
+        "args": {
+          "onLongPress": "${colorPicker()}"
+        },
+        "child": {
+          "type": "app_bar",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "BottomNavigationBarModel"
+              }
+            },
+            "backgroundColor" : "${colorValue5}"
+          }
+        }
+      }
+    }},
+    {
+      "type" : "set_value",
+      "args" : {
+         "colorValue6" : "#800080"
+      },
+      "child" : {
+      "type": "preferred_size",
+      "args": {
+        "preferredSize": "${sizeValue}"
+      },
+      "child": {
+        "type": "gesture_detector",
+        "args": {
+          "onLongPress": "${colorPicker()}"
+        },
+        "child": {
+          "type": "app_bar",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "BottomNavigationBarModel"
+              }
+            },
+            "backgroundColor" : "${colorValue6}"
+          }
+        }
+      }
+    }},
+    {
+      "type" : "set_value",
+      "args" : {
+         "colorValue7" : "#660033"
+      },
+      "child" : {
+      "type": "preferred_size",
+      "args": {
+        "preferredSize": "${sizeValue}"
+      },
+      "child": {
+        "type": "gesture_detector",
+        "args": {
+          "onLongPress": "${colorPicker()}"
+        },
+        "child": {
+          "type": "app_bar",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "BottomNavigationBarModel"
+              }
+            },
+            "backgroundColor" : "${colorValue7}"
+          }
+        }
+      }
+    }},
+    {
+      "type" : "set_value",
+      "args" : {
+         "colorValue8" : "#ffc266"
+      },
+      "child" : {
+      "type": "preferred_size",
+      "args": {
+        "preferredSize": "${sizeValue}"
+      },
+      "child": {
+        "type": "gesture_detector",
+        "args": {
+          "onLongPress": "${colorPicker()}"
+        },
+        "child": {
+          "type": "app_bar",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "BottomNavigationBarModel"
+              }
+            },
+            "backgroundColor" : "${colorValue8}"
+          }
+        }
+      }
+    }},
+    {
+      "type" : "set_value",
+      "args" : {
+         "colorValue9" : "#408000"
+      },
+      "child" : {
+      "type": "preferred_size",
+      "args": {
+        "preferredSize": "${sizeValue}"
+      },
+      "child": {
+        "type": "gesture_detector",
+        "args": {
+          "onLongPress": "${colorPicker()}"
+        },
+        "child": {
+          "type": "app_bar",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "BottomNavigationBarModel"
+              }
+            },
+            "backgroundColor" : "${colorValue9}"
+          }
+        }
+      }
+    }},
+    {
+      "type" : "set_value",
+      "args" : {
+         "colorValue10" : "#ff531a"
+      },
+      "child" : {
+      "type": "preferred_size",
+      "args": {
+        "preferredSize": "${sizeValue}"
+      },
+      "child": {
+        "type": "gesture_detector",
+        "args": {
+          "onLongPress": "${colorPicker()}"
+        },
+        "child": {
+          "type": "app_bar",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "BottomNavigationBarModel"
+              }
+            },
+            "backgroundColor" : "${colorValue10}"
+          }
+        }
+      }
+    }},
   ]
 }
