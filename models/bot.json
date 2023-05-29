@@ -439,6 +439,1902 @@
           }
         ]
       }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": null,
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Home",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59474,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Profile",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59682,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Settings",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59576,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#FF0000",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Home",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59474,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Explore",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59485,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Favorites",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59499,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#00FF00",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Photos",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 58399,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Albums",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 58394,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#0000FF",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Messages",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57527,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Contacts",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57530,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#FF00FF",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Home",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59474,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Search",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59493,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Notifications",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59533,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#FFFF00",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Music",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57369,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Playlist",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57424,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#00FFFF",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Chat",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57528,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Contacts",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57530,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Calls",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57523,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#800080",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Home",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59474,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Messages",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57527,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#008000",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Home",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59474,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Discover",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59491,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#FFA500",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Dashboard",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59398,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Statistics",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59404,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": null,
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Home",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59474,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Profile",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59682,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Settings",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59576,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#FF0000",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Home",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59474,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Explore",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59485,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Favorites",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59499,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#00FF00",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Photos",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 58399,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Albums",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 58394,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#0000FF",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Messages",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57527,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Contacts",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57530,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#FF00FF",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Home",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59474,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Search",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59493,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Notifications",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59533,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#FFFF00",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Music",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57369,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Playlist",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57424,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#00FFFF",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Chat",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57528,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Contacts",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57530,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Calls",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57523,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#800080",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Home",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59474,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Messages",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57527,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#008000",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Home",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59474,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Discover",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59491,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#FFA500",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Dashboard",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59398,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Statistics",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59404,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor" : null,
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "selectedItemColor" : null,
+        "onTap" : "${change(index)}",
+        "currentIndex" : "${curr}",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon1",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 984245,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Icon2",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57613,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": null,
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Home",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 58826,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Profile",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59475,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#FF0000",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Music",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 983725,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Settings",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59469,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#00FF00",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Search",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59574,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Favorites",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59472,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#0000FF",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Camera",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 983083,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Gallery",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59374,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#FF00FF",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Notifications",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59569,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Messages",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 57669,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#FFFF00",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Map",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 58730,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Location",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 58717,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#00FFFF",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Calendar",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59161,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Events",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 58402,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#FF4500",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Photos",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59382,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Albums",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 58394,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#008000",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "News",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59644,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Articles",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59458,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottom_navigation_bar",
+      "args": {
+        "onTap": "${change(index)}",
+        "currentIndex": "${curr}",
+        "selectedItemColor": "#800080",
+        "items": [
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Home",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59530,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "bottomNavigationBarItem": {
+              "type": "bottom_navigation_bar_item",
+              "args": {
+                "label": "Settings",
+                "icon": {
+                  "type": "icon",
+                  "args": {
+                    "icon": {
+                      "codePoint": 59582,
+                      "fontFamily": "MaterialIcons"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
     }
   ]
 }
