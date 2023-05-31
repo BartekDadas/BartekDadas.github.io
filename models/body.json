@@ -740,7 +740,7 @@
       "type": "center",
       "child": {
         "args": {
-          "text": "How are you?"
+          "text": "45th widget"
         },
         "type": "text"
       }
@@ -762,7 +762,7 @@
         "child": {
           "type": "text",
           "args": {
-            "text": "Another random widget"
+            "text": "46th widget"
           }
         }
       }
@@ -787,7 +787,7 @@
               {
                 "type": "text",
                 "args": {
-                  "text": "This is another sample text for FittedBox widget"
+                  "text": "47th widget"
                 }
               }
             ]
@@ -820,7 +820,7 @@
           "text": {
             "children": [
               {
-                "text": "Hola "
+                "text": "49th"
               },
               {
                 "style": {
@@ -845,7 +845,7 @@
       "type": "center",
       "child": {
         "args": {
-          "text": "20th wid"
+          "text": "50th wid"
         },
         "type": "text"
       }
