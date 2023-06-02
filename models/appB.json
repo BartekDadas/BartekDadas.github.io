@@ -1219,7 +1219,298 @@
           }
         }
       }
-    }
+    },
+     {
+      "type" : "set_value",
+      "args" : {
+        "colorValue41" : "00FF0F"
+      },
+      "child" : {
+        "type": "preferred_size",
+        "args": {
+          "preferredSize": "${sizeValue}"
+        },
+        "child": {
+          "type": "gesture_detector",
+          "args": {
+            "onLongPress": "${colorPicker()}"
+          },
+          "child": {
+            "type": "app_bar",
+            "args": {
+              "title": {
+                "type": "text",
+                "args": {
+                  "text": "BottomNavigationBarModel"
+                }
+              },
+              "backgroundColor" : "${colorValue41}"
+            }
+          }
+        }
+      }},
+     {
+      "type" : "set_value",
+      "args" : {
+        "colorValue42" : "FFFF00"
+      },
+      "child" : {
+        "type": "preferred_size",
+        "args": {
+          "preferredSize": "${sizeValue}"
+        },
+        "child": {
+          "type": "gesture_detector",
+          "args": {
+            "onLongPress": "${colorPicker()}"
+          },
+          "child": {
+            "type": "app_bar",
+            "args": {
+              "title": {
+                "type": "text",
+                "args": {
+                  "text": "BottomNavigationBarModel"
+                }
+              },
+              "backgroundColor" : "${colorValue42}"
+            }
+          }
+        }
+      }},
+     {
+      "type" : "set_value",
+      "args" : {
+        "colorValue43" : "00F000"
+      },
+      "child" : {
+        "type": "preferred_size",
+        "args": {
+          "preferredSize": "${sizeValue}"
+        },
+        "child": {
+          "type": "gesture_detector",
+          "args": {
+            "onLongPress": "${colorPicker()}"
+          },
+          "child": {
+            "type": "app_bar",
+            "args": {
+              "title": {
+                "type": "text",
+                "args": {
+                  "text": "BottomNavigationBarModel"
+                }
+              },
+              "backgroundColor" : "${colorValue43}"
+            }
+          }
+        }
+      }},
+     {
+      "type" : "set_value",
+      "args" : {
+        "colorValue44" : "F000F0"
+      },
+      "child" : {
+        "type": "preferred_size",
+        "args": {
+          "preferredSize": "${sizeValue}"
+        },
+        "child": {
+          "type": "gesture_detector",
+          "args": {
+            "onLongPress": "${colorPicker()}"
+          },
+          "child": {
+            "type": "app_bar",
+            "args": {
+              "title": {
+                "type": "text",
+                "args": {
+                  "text": "BottomNavigationBarModel"
+                }
+              },
+              "backgroundColor" : "${colorValue44}"
+            }
+          }
+        }
+      }},
+     {
+      "type" : "set_value",
+      "args" : {
+        "colorValue45" : "0000AA"
+      },
+      "child" : {
+        "type": "preferred_size",
+        "args": {
+          "preferredSize": "${sizeValue}"
+        },
+        "child": {
+          "type": "gesture_detector",
+          "args": {
+            "onLongPress": "${colorPicker()}"
+          },
+          "child": {
+            "type": "app_bar",
+            "args": {
+              "title": {
+                "type": "text",
+                "args": {
+                  "text": "BottomNavigationBarModel"
+                }
+              },
+              "backgroundColor" : "${colorValue45}"
+            }
+          }
+        }
+      }},
+     {
+      "type" : "set_value",
+      "args" : {
+        "colorValue46" : "C0FF00"
+      },
+      "child" : {
+        "type": "preferred_size",
+        "args": {
+          "preferredSize": "${sizeValue}"
+        },
+        "child": {
+          "type": "gesture_detector",
+          "args": {
+            "onLongPress": "${colorPicker()}"
+          },
+          "child": {
+            "type": "app_bar",
+            "args": {
+              "title": {
+                "type": "text",
+                "args": {
+                  "text": "BottomNavigationBarModel"
+                }
+              },
+              "backgroundColor" : "${colorValue46}"
+            }
+          }
+        }
+      }},
+     {
+      "type" : "set_value",
+      "args" : {
+        "colorValue47" : "0BB000"
+      },
+      "child" : {
+        "type": "preferred_size",
+        "args": {
+          "preferredSize": "${sizeValue}"
+        },
+        "child": {
+          "type": "gesture_detector",
+          "args": {
+            "onLongPress": "${colorPicker()}"
+          },
+          "child": {
+            "type": "app_bar",
+            "args": {
+              "title": {
+                "type": "text",
+                "args": {
+                  "text": "BottomNavigationBarModel"
+                }
+              },
+              "backgroundColor" : "${colorValue47}"
+            }
+          }
+        }
+      }},
+     {
+      "type" : "set_value",
+      "args" : {
+        "colorValue48" : "0000DD"
+      },
+      "child" : {
+        "type": "preferred_size",
+        "args": {
+          "preferredSize": "${sizeValue}"
+        },
+        "child": {
+          "type": "gesture_detector",
+          "args": {
+            "onLongPress": "${colorPicker()}"
+          },
+          "child": {
+            "type": "app_bar",
+            "args": {
+              "title": {
+                "type": "text",
+                "args": {
+                  "text": "BottomNavigationBarModel"
+                }
+              },
+              "backgroundColor" : "${colorValue48}"
+            }
+          }
+        }
+      }},
+     {
+      "type" : "set_value",
+      "args" : {
+        "colorValue49" : "00FC00"
+      },
+      "child" : {
+        "type": "preferred_size",
+        "args": {
+          "preferredSize": "${sizeValue}"
+        },
+        "child": {
+          "type": "gesture_detector",
+          "args": {
+            "onLongPress": "${colorPicker()}"
+          },
+          "child": {
+            "type": "app_bar",
+            "args": {
+              "title": {
+                "type": "text",
+                "args": {
+                  "text": "BottomNavigationBarModel"
+                }
+              },
+              "backgroundColor" : "${colorValue49}"
+            }
+          }
+        }
+      }},
+     {
+      "type" : "set_value",
+      "args" : {
+        "colorValue50" : "FFFFFF"
+      },
+      "child" : {
+        "type": "preferred_size",
+        "args": {
+          "preferredSize": "${sizeValue}"
+        },
+        "child": {
+          "type": "gesture_detector",
+          "args": {
+            "onLongPress": "${colorPicker()}"
+          },
+          "child": {
+            "type": "app_bar",
+            "args": {
+              "title": {
+                "type": "text",
+                "args": {
+                  "text": "BottomNavigationBarModel"
+                }
+              },
+              "backgroundColor" : "${colorValue50}"
+            }
+          }
+        }
+      }
+     }
   ]
 }
      
