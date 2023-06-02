@@ -1189,6 +1189,36 @@
           }
         }
       }
+    },
+    {
+      "type" : "set_value",
+      "args" : {
+        "colorValue10" : "#ff531a"
+      },
+      "child" : {
+        "type": "preferred_size",
+        "args": {
+          "preferredSize": "${sizeValue}"
+        },
+        "child": {
+          "type": "gesture_detector",
+          "args": {
+            "onLongPress": "${colorPicker()}"
+          },
+          "child": {
+            "type": "app_bar",
+            "args": {
+              "title": {
+                "type": "text",
+                "args": {
+                  "text": "BottomNavigationBarModel"
+                }
+              },
+              "backgroundColor" : "${colorValue10}"
+            }
+          }
+        }
+      }
     }
   ]
 }
