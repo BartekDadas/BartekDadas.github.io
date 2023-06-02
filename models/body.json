@@ -740,7 +740,7 @@
       "type": "center",
       "child": {
         "args": {
-          "text": "45th widget"
+          "text": "44th widget"
         },
         "type": "text"
       }
@@ -762,7 +762,7 @@
         "child": {
           "type": "text",
           "args": {
-            "text": "46th widget"
+            "text": "45th widget"
           }
         }
       }
@@ -787,7 +787,7 @@
               {
                 "type": "text",
                 "args": {
-                  "text": "47th widget"
+                  "text": "46th widget"
                 }
               }
             ]
@@ -820,7 +820,7 @@
           "text": {
             "children": [
               {
-                "text": "49th"
+                "text": "48th"
               },
               {
                 "style": {
@@ -845,10 +845,16 @@
       "type": "center",
       "child": {
         "args": {
-          "text": "50th wid"
+          "text": "49th wid"
         },
         "type": "text"
       }
-    }
+    },
+      {
+      "type": "center",
+      "child": {
+        "args": {
+          "text": "50th wid"}, "type": "text"}
+    },
   ]
 }
