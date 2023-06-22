@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "",
+  "$comment": "https://api.flutter.dev/flutter/cupertino/CupertinoPageScaffold-class.html",
+  "type": "object",
+  "title": "CupertinoPageScaffold",
+  "additionalProperties": false,
+  "properties": {
+    "navigationBar": {
+      "$ref": "https://bartekdadas.github.io/schemas/obstructing_preferred_size_widget.json"
+    },
+    "backgroundColor": {
+      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+    },
+    "resizeToAvoidBottomInset": {
+      "type": "boolean"
+    }
+  }
+}
