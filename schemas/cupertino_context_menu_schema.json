@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "https://bartekdadas.github.io/schemas/cupertino_context_menu.json",
+  "$id": "https://bartekdadas.github.io/schemas/cupertino_context_menu_schema.json",
   "$comment": "https://api.flutter.dev/flutter/cupertino/CupertinoContextMenu-class.html",
   "type": "object",
   "title": "CupertinoContextMenu",
