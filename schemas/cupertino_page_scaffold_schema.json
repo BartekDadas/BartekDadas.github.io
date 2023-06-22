@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "",
+  "$id": "https://bartekdadas.github.io/schemas/cupertino_page_scaffold.json",
   "$comment": "https://api.flutter.dev/flutter/cupertino/CupertinoPageScaffold-class.html",
   "type": "object",
   "title": "CupertinoPageScaffold",
