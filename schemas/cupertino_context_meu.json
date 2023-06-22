@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "https://bartekdadas.github.io/schemas/cupertino_context_menu.json",
+  "$comment": "https://api.flutter.dev/flutter/cupertino/CupertinoContextMenu-class.html",
+  "type": "object",
+  "title": "CupertinoContextMenu",
+  "additionalProperties": false,
+  "properties": {
+    "actions": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+          }
+        }
+      ]
+    },
+    "enableHapticFeedback": {
+      "type": "boolean"
+    },
+    "previewBuilder": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+        }
+      ]
+    }
+  }
+}
