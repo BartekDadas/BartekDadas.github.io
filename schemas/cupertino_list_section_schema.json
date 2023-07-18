@@ -1,9 +1,9 @@
 {
   "$schema" : "http://json-schema.org/draft-06/schema#",
-  "$id" : "https://bartekdadas.github.io/schemas/bottom_nav_bar_schema.json",
-  "$comment" : "https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html",
+  "$id" : "https://bartekdadas.github.io/schemas/cupertino_list_section_schema.json",
+  "$comment" : "https://api.flutter.dev/flutter/cupertino/CupertinoListSection-class.html",
   "type" : "object",
-  "title" : "BottomNavigationBar",
+  "title" : "CupertinoListSection",
   "additionalItems": false,
   "properties": {
       "header": {
