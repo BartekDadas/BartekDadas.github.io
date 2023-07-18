@@ -1,0 +1,99 @@
+{
+  "$schema" : "http://json-schema.org/draft-06/schema#",
+  "$id" : "https://bartekdadas.github.io/schemas/bottom_nav_bar_schema.json",
+  "$comment" : "https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html",
+  "type" : "object",
+  "title" : "BottomNavigationBar",
+  "additionalItems": false,
+  "properties": {
+      "header": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+          }
+        ]
+      },
+      "footer" : {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+          }
+        ]
+      },
+      "margin": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          }
+        ]
+      },
+      "backgroundColor": {
+        "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      },
+      "decoration" : {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_decoration.json"
+          }
+        ]
+      },
+      "clipBehavior" : {
+        "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/clip.json"
+      },
+      "dividerMargin" : {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      },
+      "additionalDividerMargin": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      },
+      "topMargin": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      },
+      "hasLeading": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "number"
+          },
+          {
+            "type": "boolean"
+          }
+        ]
+      }
+  }
+}
