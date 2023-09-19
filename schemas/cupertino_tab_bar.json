@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "",
+    "$id": "https://bartekdadas.github.io/schemas/cupertino_tab_bar.json",
     "title": "CupertinoTabBar",
     "type": "object",
     "additionalProperties": false,
