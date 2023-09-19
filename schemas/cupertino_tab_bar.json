@@ -1,0 +1,96 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "",
+    "title": "CupertinoTabBar",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "items" : {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "https://bartekdadas.github.io/schemas/bottom_nav_bar_item_schema.json"
+                    }
+                }
+            ]
+        },
+        "onTap" :  {
+            "type" : "string"
+        },
+        "currentIndex" : {
+            "anyOf": [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "backgroundColor" : {
+            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "activeColor" : {
+            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "inactiveColor" : {
+            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "iconSize" : {
+            "anyOf": [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                }
+            ]
+        }, 
+        "border" : {
+            "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "object",
+                  "additionalProperties": true
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "boolean"
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": true
+                  }
+                }
+              ] 
+        }
+    }
+}
