@@ -1,0 +1,140 @@
+{
+    "$schema" : "http://json-schema.org/draft-07/schema#",
+    "$id" : "https://bartekdadas.github.io/schemas/circle_avatar.json",
+    "$comment" : "https://api.flutter.dev/flutter/material/CircleAvatar-class.html",
+    "type" : "object",
+    "title" : "CircleAvatar",
+    "additionalItems": false,
+    "properties": {
+        "backgroundColor" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "backgroundImage" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/asset_image.json"
+        },
+        "foregroundImage" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/asset_image.json"
+        },
+        "onBackgroundImageError" : {
+            "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "object",
+                  "additionalProperties": true
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "boolean"
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": true
+                  }
+                }
+            ]
+        },
+        "onForgroundImageError" : {
+            "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "object",
+                  "additionalProperties": true
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "boolean"
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": true
+                  }
+                }
+            ]
+        },
+        "foregroundColor" : {    
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "radius" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "minRadius" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "maxRadius" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "child" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+        }
+    }
+}
+  
