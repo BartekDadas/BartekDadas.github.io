@@ -1,0 +1,66 @@
+{
+    "$schema" : "http://json-schema.org/draft-07/schema#",
+    "$id" : "https://bartekdadas.github.io/schemas/circle_button.json",
+    "$comment" : "https://github.com/nitishrajuprety/circle_button",
+    "type" : "object",
+    "title" : "CircleButton",
+    "additionalItems": false,
+    "properties": {
+        "onTap" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }
+            ]
+        },
+        "tooltip" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }
+            ]
+        },
+        "width" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "height" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "borderColor" : {
+            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "borderWidth" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "borderStyle" : {
+            "$ref" : ""
+        },
+        "backgroundColor": {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "child" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+        }
+    }
+}
