@@ -1,0 +1,145 @@
+{
+    "$schema" : "http://json-schema.org/draft-07/schema#",
+    "$id" : "https://bartekdadas.github.io/schemas/dot_navigation_bar.json",
+    "$comment" : "https://github.com/haptome/dot_navigation_bar/tree/master",
+    "type" : "object",
+    "title" : "DotNavigationBar",
+    "additionalItems": false,
+    "properties": {
+        "backgroundColor" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "currentIndex" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "onTap" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }
+            ]
+        },
+        "selectedItemColor" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+            }
+        },
+        "unselectedItemColor" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "margin" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "itemPadding" : {
+            "$ref" : ""
+        },
+        "duration" : {
+            "$ref" : "" 
+        },
+        "curve" : {
+            "$ref" : ""
+        },
+        "dotIndicatorColor" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "marginR" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "paddingR" : {
+            "$ref" : ""
+        },
+        "borderRadius" : {
+            "$ref"  : ""
+        },
+        "boxShadow" : {
+            "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "object",
+                  "additionalProperties": true
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "boolean"
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": true
+                  }
+                }
+            ]
+        },
+        "enableFloatingNavBar" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "number"
+                }, 
+                {
+                    "type" : "boolean"
+                }
+            ]
+        },
+        "enablePaddingAnimation" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                },
+                {
+                    "type" : "boolean"
+                }
+            ]
+        },
+        "splashColor" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        }
+}
