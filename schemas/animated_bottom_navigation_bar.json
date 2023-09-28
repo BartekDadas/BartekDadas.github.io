@@ -1,0 +1,497 @@
+{
+    "$schema" : "http://json-schema.org/draft-07/schema#",
+    "$id" : "https://bartekdadas.github.io/schemas/animated_bottom_navigation_bar.json",
+    "$comment" : "https://github.com/LanarsInc/animated-bottom-navigation-bar-flutter/tree/18863a0ca68c63f2b88fa1707ed121bb935edfeb",
+    "type" : "object",
+    "title" : "AnimatedBottomNavigationBar",
+    "additionalItems": false,
+    "properties": {
+        "tabBuilder" : {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": true
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "boolean"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": true
+                    }
+                }
+            ]
+        },
+        "itemCount" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "icons" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "array",
+                    "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/icon_data.json"
+                }
+            ]
+        },
+        "onTap" : {
+            "args" :  [
+                {
+                    "type" : "string"
+                }
+            ]
+        },
+        "activeIndex" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "iconSize" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "height" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "notchMargin" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "splashRadius" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "splashSpeedInMilliseconds" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type"  : "number"
+                }
+            ]
+        },
+        "leftCornerRadius" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "rightCornerRadius" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "backgroundColor" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "splashColor" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "activeColor" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "inactiveColor" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "notchAndCornersAnimation" : {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": true
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "boolean"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": true
+                    }
+                }
+            ]
+        },
+        "notchSmoothness" : {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": true
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "boolean"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": true
+                    }
+                }
+            ]
+        },
+        "gapLocation" : {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": true
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "boolean"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": true
+                    }
+                }
+            ]
+        },
+        "gapWidth" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "elevation" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                }
+            ]
+        }, 
+        "shadow" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "safeAreaValues" :  {  
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": true
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "boolean"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": true
+                    }
+                }
+            ]
+        },
+        "hideAnimationCurve" : {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": true
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "boolean"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": true
+                    }
+                }
+            ]
+        },
+        "borderColor" : {
+            "$ref" : ""
+        },
+        "borderWidth" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                }
+            ]
+        },
+        "hideAnimationController" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }
+            ]
+        },
+        "backgroundGradient": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": true
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "boolean"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": true
+                    }
+                }
+            ]
+        },
+        "blurEffect" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                },
+                {
+                    "type" : "boolean"
+                }
+            ]
+        },
+        "scaleFactor" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "type" : "number"
+                }
+            ]
+        }
+    }
+}
