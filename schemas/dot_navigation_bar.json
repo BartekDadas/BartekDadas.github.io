@@ -44,13 +44,98 @@
             ]
         },
         "itemPadding" : {
-            "$ref" : ""
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+                }
+            ]
         },
-        "duration" : {
-            "$ref" : "" 
+        "duration" :  {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": true
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "boolean"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": true
+                    }
+                }
+            ]
         },
-        "curve" : {
-            "$ref" : ""
+        "curve" :  {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": true
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "boolean"
+                    }
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": true
+                    }
+                }
+            ]
         },
         "dotIndicatorColor" : {
             "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
@@ -66,10 +151,24 @@
             ]
         },
         "paddingR" : {
-            "$ref" : ""
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+                }
+            ]
         },
         "borderRadius" : {
-            "$ref"  : ""
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/border_radius.json"
+                }
+            ]
         },
         "boxShadow" : {
             "anyOf": [
@@ -141,5 +240,16 @@
         },
         "splashColor" : {
             "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
-        }
+        },
+        "items" : {
+            "args" : [
+                {
+                    "type" : "string"
+                }, 
+                {
+                    "type" : "array",
+                    "$ref" : "https://bartekdadas.github.io/schemas/dot_navigation_bar_item.json"
+                }
+            ]
+        } 
 }
