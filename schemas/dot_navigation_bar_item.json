@@ -1,0 +1,27 @@
+{
+    "$schema" : "http://json-schema.org/draft-07/schema#",
+    "$id" : "https://bartekdadas.github.io/schemas/dot_navigation_bar_item.json",
+    "$comment" : "https://github.com/haptome/dot_navigation_bar/tree/master",
+    "type" : "object",
+    "title" : "DotNavigationBarItem",
+    "additionalItems": false,
+    "properties": {
+        "icon" : {
+            "args" : [
+                {
+                    "type" : "string"
+                },
+                {
+                    "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+                }
+            ]
+        },
+        "selectedColor" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        },
+        "unselectedColor" : {
+            "$ref" : "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+        }
+        
+    }
+}
