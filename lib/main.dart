@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mac_doc/example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +32,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: MyHomePage(),
-      home: ExampleWidget(),
+      home: MyHomePage(),
     );
   }
 }
@@ -97,29 +96,59 @@ class Dock<T extends Object> extends StatefulWidget {
     required this.builder,
   });
 
-  /// Initial [T] items to put in this [Dock].
   final List<T> items;
 
-  /// Builder building the provided [T] item.
   final Widget Function(T) builder;
 
   @override
   State<Dock<T>> createState() => _DockState<T>();
 }
 
-/// State of the [Dock] used to manipulate the [_items].
-class _DockState<T extends Object> extends State<Dock<T>> {
-  /// [T] items being manipulated.
-  late final List<T> _items = widget.items.toList();
+class _DockState<T extends Object> extends State<Dock<T>>
+    with TickerProviderStateMixin {
+  late List<T> _items = widget.items.toList();
 
-  /// Currently dragged item index
   int? _draggedIndex;
 
-  /// Current drag offset for the floating item
   Offset? _dragOffset;
 
-  /// Target index where item would be inserted
   int? _targetIndex;
+
+  late Animation<double> _scaleAnimation;
+
+  late AnimationController _scaleController;
+
+  late AnimationController _scaleBackController;
+
+  late Animation<double> _scaleBackAnimation;
+
+  @override
+  void initState() {
+    _scaleController =
+        AnimationController(vsync: this, duration: Duration(milliseconds: 200));
+    _scaleAnimation = Tween<double>(
+      begin: 50.0,
+      end: 0.0,
+    ).animate(
+      CurvedAnimation(parent: _scaleController, curve: Curves.easeInOut),
+    );
+    _scaleBackController =
+        AnimationController(vsync: this, duration: Duration(milliseconds: 200));
+    _scaleBackAnimation = Tween<double>(
+      begin: 0.0,
+      end: 50.0,
+    ).animate(
+      CurvedAnimation(parent: _scaleBackController, curve: Curves.easeOut),
+    );
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    _scaleController.dispose();
+    _scaleBackController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -136,85 +165,102 @@ class _DockState<T extends Object> extends State<Dock<T>> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: List.generate(_items.length, (index) {
               final item = _items[index];
-
-              // Calculate scale based on hover or being target position
               double scale = 1.0;
-              if (_draggedIndex != null && _targetIndex == index) {
-                scale = 1.2; // Scale up the target position
+              if (_draggedIndex != null &&
+                  _targetIndex == index &&
+                  _draggedIndex != index) {
+                scale = 1.2;
               }
 
-              return MouseRegion(
-                onEnter: (_) {
-                  if (_draggedIndex != null) {
-                    setState(() => _targetIndex = index);
-                  }
-                },
-                child: Draggable<T>(
-                  data: item,
-                  feedback: Material(
-                    color: Colors.transparent,
-                    child: widget.builder(item),
-                  ),
-                  childWhenDragging: Container(
-                    width: 50, // Adjust based on your item size
-                    height: 50,
-                  ),
-                  onDragStarted: () {
-                    setState(() {
-                      _draggedIndex = index;
-                      _targetIndex = index;
-                    });
-                  },
-                  onDragUpdate: (details) {
-                    setState(() => _dragOffset = details.localPosition);
-
-                    // Find the closest item based on pointer position
-                    final RenderBox? box =
-                        context.findRenderObject() as RenderBox?;
-                    if (box != null) {
-                      final Offset localPosition =
-                          box.globalToLocal(details.globalPosition);
-                      final double itemWidth = box.size.width / _items.length;
-
-                      // Calculate the closest index based on position
-                      int closestIndex = (localPosition.dx / itemWidth).floor();
-                      closestIndex = closestIndex.clamp(0, _items.length - 1);
-
-                      if (_targetIndex != closestIndex) {
-                        setState(() => _targetIndex = closestIndex);
+              return Row(
+                children: [
+                  if (_targetIndex == index &&
+                      _targetIndex != _items.length - 1)
+                    AnimatedContainer(
+                        duration: Duration(milliseconds: 500),
+                        width: _scaleBackAnimation.value,
+                        height: 30,
+                        margin: EdgeInsets.symmetric(horizontal: 4)),
+                  MouseRegion(
+                    onEnter: (_) {
+                      if (_draggedIndex != null) {
+                        setState(() => _targetIndex = index);
                       }
-                    }
-                  },
-                  onDragEnd: (details) {
-                    if (_draggedIndex != null &&
-                        _targetIndex != null &&
-                        _draggedIndex != _targetIndex) {
-                      setState(() {
-                        final item = _items.removeAt(_draggedIndex!);
-                        _items.insert(_targetIndex!, item);
-                      });
-                    }
-                    setState(() {
-                      _draggedIndex = null;
-                      _dragOffset = null;
-                      _targetIndex = null;
-                    });
-                  },
-                  child: AnimatedContainer(
-                    duration: const Duration(milliseconds: 150),
-                    curve: Curves.easeOutQuart,
-                    transform: Matrix4.identity()
-                      ..scale(scale)
-                      ..translate(
-                        0.0,
-                        _draggedIndex == index ? -10.0 : 0.0,
+                    },
+                    child: Draggable<T>(
+                      data: item,
+                      feedback: Material(
+                        color: Colors.transparent,
+                        child: widget.builder(item),
                       ),
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 4),
-                      child: widget.builder(item),
+                      childWhenDragging: AnimatedContainer(
+                        duration: Duration(milliseconds: 900),
+                        width: _scaleAnimation.value,
+                        height: 30,
+                      ),
+                      onDragStarted: () {
+                        setState(() {
+                          _draggedIndex = index;
+                          _targetIndex = index;
+                        });
+                        _scaleController.forward();
+                      },
+                      onDragUpdate: (details) {
+                        setState(() => _dragOffset = details.localPosition);
+                        final RenderBox? box =
+                            context.findRenderObject() as RenderBox?;
+                        if (box != null) {
+                          final Offset localPosition =
+                              box.globalToLocal(details.globalPosition);
+                          final double itemWidth =
+                              box.size.width / _items.length;
+                          int closestIndex =
+                              (localPosition.dx / itemWidth).floor();
+                          closestIndex =
+                              closestIndex.clamp(0, _items.length - 1);
+
+                          if (_targetIndex != closestIndex) {
+                            setState(() => _targetIndex = closestIndex);
+                            _scaleBackController.forward();
+                          }
+                        }
+                      },
+                      onDragEnd: (details) {
+                        if (_draggedIndex != null &&
+                            _targetIndex != null &&
+                            _draggedIndex != _targetIndex) {
+                          setState(() {
+                            final item = _items.removeAt(_draggedIndex!);
+                            _items.insert(_targetIndex!, item);
+                          });
+                        }
+                        setState(() {
+                          _draggedIndex = null;
+                          _dragOffset = null;
+                          _targetIndex = null;
+                        });
+                        _scaleController.reset();
+                        _scaleBackController.reset();
+                      },
+                      child: AnimatedContainer(
+                        duration: const Duration(milliseconds: 150),
+                        curve: Curves.easeOutQuart,
+                        transform: Matrix4.identity()..scale(scale),
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 4),
+                          child: widget.builder(item),
+                        ),
+                      ),
                     ),
                   ),
-                ),
+                  if (_targetIndex == index &&
+                      _targetIndex == _items.length - 1)
+                    AnimatedContainer(
+                        duration: Duration(milliseconds: 800),
+                        width: _scaleAnimation.value,
+                        height: 30,
+                        margin: EdgeInsets.symmetric(horizontal: 4)),
+                ],
               );
             }).toList(),
           ),
