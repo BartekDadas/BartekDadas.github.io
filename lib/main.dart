@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mac_doc/example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +32,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(),
+      // home: MyHomePage(),
+      home: ExampleWidget(),
     );
   }
 }
@@ -51,7 +53,6 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
 
 class DocWidget extends StatelessWidget {
   const DocWidget({super.key});
@@ -110,13 +111,13 @@ class Dock<T extends Object> extends StatefulWidget {
 class _DockState<T extends Object> extends State<Dock<T>> {
   /// [T] items being manipulated.
   late final List<T> _items = widget.items.toList();
-  
+
   /// Currently dragged item index
   int? _draggedIndex;
-  
+
   /// Current drag offset for the floating item
   Offset? _dragOffset;
-  
+
   /// Target index where item would be inserted
   int? _targetIndex;
 
@@ -135,13 +136,13 @@ class _DockState<T extends Object> extends State<Dock<T>> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: List.generate(_items.length, (index) {
               final item = _items[index];
-              
+
               // Calculate scale based on hover or being target position
               double scale = 1.0;
               if (_draggedIndex != null && _targetIndex == index) {
                 scale = 1.2; // Scale up the target position
               }
-              
+
               return MouseRegion(
                 onEnter: (_) {
                   if (_draggedIndex != null) {
@@ -166,24 +167,28 @@ class _DockState<T extends Object> extends State<Dock<T>> {
                   },
                   onDragUpdate: (details) {
                     setState(() => _dragOffset = details.localPosition);
-                    
+
                     // Find the closest item based on pointer position
-                    final RenderBox? box = context.findRenderObject() as RenderBox?;
+                    final RenderBox? box =
+                        context.findRenderObject() as RenderBox?;
                     if (box != null) {
-                      final Offset localPosition = box.globalToLocal(details.globalPosition);
+                      final Offset localPosition =
+                          box.globalToLocal(details.globalPosition);
                       final double itemWidth = box.size.width / _items.length;
-                      
+
                       // Calculate the closest index based on position
                       int closestIndex = (localPosition.dx / itemWidth).floor();
                       closestIndex = closestIndex.clamp(0, _items.length - 1);
-                      
+
                       if (_targetIndex != closestIndex) {
                         setState(() => _targetIndex = closestIndex);
                       }
                     }
                   },
                   onDragEnd: (details) {
-                    if (_draggedIndex != null && _targetIndex != null && _draggedIndex != _targetIndex) {
+                    if (_draggedIndex != null &&
+                        _targetIndex != null &&
+                        _draggedIndex != _targetIndex) {
                       setState(() {
                         final item = _items.removeAt(_draggedIndex!);
                         _items.insert(_targetIndex!, item);
